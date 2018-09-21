@@ -1,0 +1,81 @@
+#Firefox:
+.mozilla/firefox/*/Cache
+.mozilla/firefox/*/minidumps
+.mozilla/firefox/*/.parentlock
+.mozilla/firefox/*/urlclassifier3.sqlite
+.mozilla/firefox/*/blocklist.xml
+.mozilla/firefox/*/extensions.sqlite
+.mozilla/firefox/*/extensions.sqlite-journal
+.mozilla/firefox/*/extensions.rdf
+.mozilla/firefox/*/extensions.ini
+.mozilla/firefox/*/extensions.cache
+.mozilla/firefox/*/XUL.mfasl
+.mozilla/firefox/*/XPC.mfasl
+.mozilla/firefox/*/xpti.dat
+.mozilla/firefox/*/compreg.dat
+.mozilla/firefox/*/pluginreg.dat
+
+
+
+#GnuPG:
+.gnupg/rnd
+.gnupg/random_seed
+.gnupg/.#*
+.gnupg/*.lock
+.gnupg/gpg-agent-info-*
+
+#indexer
+.local/share/baloo
+.local/share/zeitgeist
+.local/share/akonadi
+
+# LibreOffice cache files
+.config/libreoffice/4/cache
+
+
+# VirtualBox
+.config/VirtualBox/VBoxSVC.log*
+
+# Session-specific
+.Xauthority
+.ICEauthority
+.gksu.lock
+.pulse
+.pulse-cookie
+.esd_auth
+
+/.dbus
+.cache
+/.Trash
+.Trash-1*
+.local/share/Trash
+/Trash
+
+
+# Python virtual environments
+/.virtualenvs
+
+# run-time configuration information for Subversion
+/.subversion
+
+# Recently used files
+.local/share/RecentDocuments
+.recently-used
+.recently-used.xbel
+recently-used.xbel
+.thumbnails
+.thumb
+.Thumbs.db
+.DS_Store
+.localised
+.bash_history
+.CFUserTextEncoding
+
+# Cached packages lists:
+.aptitude
+
+#dir
+.wine
+VirtualBox
+
+
